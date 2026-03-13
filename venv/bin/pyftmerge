@@ -1,0 +1,8 @@
+#!/bin/sh
+'''exec' "/home/fabian/Escritorio/7mo Semestre/Tendencias de Inteligencia Artificial Aplicada/Unidad 1/Semana 1/venv/bin/python3" "$0" "$@"
+' '''
+import sys
+from fontTools.merge import main
+if __name__ == '__main__':
+    sys.argv[0] = sys.argv[0].removesuffix('.exe')
+    sys.exit(main())
